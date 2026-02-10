@@ -44,12 +44,14 @@
             "id": "ccfd3d4c9382046a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Slides/2. GeneralInformation.pdf"
+                "file": "2. Lean/Commands.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "2. GeneralInformation"
+              "icon": "lucide-file",
+              "title": "Commands"
             }
           },
           {
@@ -242,6 +244,10 @@
   },
   "active": "ccfd3d4c9382046a",
   "lastOpenFiles": [
+    "1. Introduction/Untitled.md",
+    "2. Lean/Commands.md",
+    "2. Lean",
+    "Slides/2. GeneralInformation.pdf",
     "LeanBasics/lake-manifest.json",
     "LeanBasics/lean-toolchain",
     "LeanBasics/README.md",
@@ -251,10 +257,7 @@
     "LeanBasics/LeanBasics",
     "LeanBasics/lakefile.toml",
     "LeanBasics",
-    "lean/introduction/lake-manifest.json",
-    "lean/introduction/lean-toolchain",
     "lean/introduction/README.md",
-    "lean/introduction/Main.lean",
     "1. Introduction/Organisatorisches.md",
     "1. Introduction/Organisatorische und Literatur.md",
     "Images/practical book logo.png",
