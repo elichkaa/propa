@@ -11,10 +11,14 @@
             "id": "ccfd3d4c9382046a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Overview.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Overview"
             }
           }
         ]
@@ -173,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,6 +200,8 @@
   },
   "active": "ccfd3d4c9382046a",
   "lastOpenFiles": [
-    "1. introduction.pdf"
+    "Slides/1. introduction.pdf",
+    "Overview.md",
+    "Slides"
   ]
 }
