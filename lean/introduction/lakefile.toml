@@ -1,0 +1,10 @@
+name = "introduction"
+version = "0.1.0"
+defaultTargets = ["introduction"]
+
+[[lean_lib]]
+name = "Introduction"
+
+[[lean_exe]]
+name = "introduction"
+root = "Main"

@@ -220,7 +220,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,26 +240,28 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "34a5eae4ae3dc2e4",
+  "active": "ccfd3d4c9382046a",
   "lastOpenFiles": [
-    "Slides/1. introduction.pdf",
+    "lean/introduction/lake-manifest.json",
+    "lean/introduction/lean-toolchain",
+    "lean/introduction/README.md",
+    "lean/introduction/Main.lean",
+    "lean/introduction/Introduction.lean",
+    "lean/introduction/Introduction/Basic.lean",
+    "lean/introduction/Introduction",
+    "lean/introduction/lakefile.toml",
+    "lean/introduction",
+    "lean",
     "1. Introduction/Organisatorisches.md",
+    "Slides/1. introduction.pdf",
     "Slides/2. GeneralInformation.pdf",
-    "Literature/hitchhikers_guide_2025_desktop.pdf",
     "1. Introduction/Organisatorische und Literatur.md",
-    "Literature/Practical Foundations for Programming Languages.pdf",
     "Images/practical book logo.png",
     "Images/types logo.png",
-    "Images",
     "Images/hitchhikers logo.png",
-    "Literature/Types and Programming Languages.pdf",
-    "Literature",
     "Hello!!.md",
     "Drawing 2026-02-10 19.46.23.excalidraw.md",
     "Drawing 2026-02-10 19.36.54.excalidraw.md",
-    "Fonts/Calibri.ttf",
-    "Fonts",
-    "Calibri 1.ttf",
     "Overview.md",
     "Excalidraw/Drawing 2026-02-10 09.28.40.excalidraw.md"
   ]
