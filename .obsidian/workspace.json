@@ -8,17 +8,60 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ccfd3d4c9382046a",
+            "id": "af001b66bc8cf1c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "1. Introduction/Organisatorische und Literatur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Organisatorische und Literatur"
+            }
+          },
+          {
+            "id": "34a5eae4ae3dc2e4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "1. Introduction/Organisatorisches.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Organisatorisches"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "06cb0526fe4eab45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ccfd3d4c9382046a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Slides/2. GeneralInformation.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "2. GeneralInformation"
+            }
+          },
+          {
+            "id": "f225c0686353124a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Literature/hitchhikers_guide_2025_desktop.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "hitchhikers_guide_2025_desktop"
             }
           }
         ]
@@ -177,8 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,14 +236,30 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
-      "omnisearch:Omnisearch": false,
-      "remotely-save:Remotely Save": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "ccfd3d4c9382046a",
+  "active": "34a5eae4ae3dc2e4",
   "lastOpenFiles": [
     "Slides/1. introduction.pdf",
+    "1. Introduction/Organisatorisches.md",
+    "Slides/2. GeneralInformation.pdf",
+    "Literature/hitchhikers_guide_2025_desktop.pdf",
+    "1. Introduction/Organisatorische und Literatur.md",
+    "Literature/Practical Foundations for Programming Languages.pdf",
+    "Images/practical book logo.png",
+    "Images/types logo.png",
+    "Images",
+    "Images/hitchhikers logo.png",
+    "Literature/Types and Programming Languages.pdf",
+    "Literature",
+    "Hello!!.md",
+    "Drawing 2026-02-10 19.46.23.excalidraw.md",
+    "Drawing 2026-02-10 19.36.54.excalidraw.md",
+    "Fonts/Calibri.ttf",
+    "Fonts",
+    "Calibri 1.ttf",
     "Overview.md",
-    "Slides"
+    "Excalidraw/Drawing 2026-02-10 09.28.40.excalidraw.md"
   ]
 }
