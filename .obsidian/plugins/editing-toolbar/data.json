@@ -387,6 +387,11 @@
       "id": "editing-toolbar:workplace-fullscreen-focus",
       "name": "Workplace Fullscreen",
       "icon": "exit-fullscreen"
+    },
+    {
+      "id": "editor:insert-codeblock",
+      "name": "Insert code block",
+      "icon": "lucide-code"
     }
   ],
   "followingCommands": [],
@@ -425,8 +430,8 @@
   "viewTypeSettings": {},
   "appearanceByStyle": {
     "top": {
-      "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
-      "toolbarIconColor": "var(--text-normal)",
+      "toolbarBackgroundColor": "#2D3033",
+      "toolbarIconColor": "#E2E8F0",
       "toolbarIconSize": 18,
       "aestheticStyle": "default"
     },
@@ -449,8 +454,8 @@
       "aestheticStyle": "default"
     }
   },
-  "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
-  "toolbarIconColor": "var(--text-normal)",
+  "toolbarBackgroundColor": "#2D3033",
+  "toolbarIconColor": "#E2E8F0",
   "toolbarIconSize": 18,
   "useCurrentLineForRegex": false
 }

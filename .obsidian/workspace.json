@@ -6,6 +6,7 @@
       {
         "id": "f6df5799aae92563",
         "type": "tabs",
+        "dimension": 52.52707581227437,
         "children": [
           {
             "id": "af001b66bc8cf1c2",
@@ -25,25 +26,6 @@
             "id": "34a5eae4ae3dc2e4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "1. Introduction/Organisatorisches.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Organisatorisches"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "06cb0526fe4eab45",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ccfd3d4c9382046a",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "2. Lean/Commands.md",
@@ -53,7 +35,15 @@
               "icon": "lucide-file",
               "title": "Commands"
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "06cb0526fe4eab45",
+        "type": "tabs",
+        "dimension": 47.47292418772563,
+        "children": [
           {
             "id": "f225c0686353124a",
             "type": "leaf",
@@ -222,8 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,10 +231,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ccfd3d4c9382046a",
+  "active": "34a5eae4ae3dc2e4",
   "lastOpenFiles": [
-    "1. Introduction/Untitled.md",
+    "LeanBasics/Conditionals.lean",
+    "LeanBasics/Numbers.lean",
+    "LeanBasics/Strings.lean",
+    "1. Introduction/Organisatorisches.md",
     "2. Lean/Commands.md",
+    "1. Introduction/Untitled.md",
     "2. Lean",
     "Slides/2. GeneralInformation.pdf",
     "LeanBasics/lake-manifest.json",
@@ -255,10 +248,7 @@
     "LeanBasics/LeanBasics.lean",
     "LeanBasics/LeanBasics/Basic.lean",
     "LeanBasics/LeanBasics",
-    "LeanBasics/lakefile.toml",
-    "LeanBasics",
     "lean/introduction/README.md",
-    "1. Introduction/Organisatorisches.md",
     "1. Introduction/Organisatorische und Literatur.md",
     "Images/practical book logo.png",
     "Images/types logo.png",
