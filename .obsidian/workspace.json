@@ -278,8 +278,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5100afb0593897c4",
+  "active": "737bd11fdacd6d80",
   "lastOpenFiles": [
+    "Exercises/Week0/lake-manifest.json",
+    "Exercises/Week0/lean-toolchain",
+    "Exercises/Week0/README.md",
+    "Exercises/Week0/Main.lean",
+    "Exercises/Week0/Week0.lean",
+    "Exercises/Week0/Week0/Basic.lean",
+    "Exercises/Week0/Week0",
+    "Exercises/Week0/lakefile.toml",
+    "Exercises/Week0",
+    "Exercises/idk.txt",
+    "Exercises",
     "2. Lean/Special Types.md",
     "Images/option def.png",
     "Images/unit definition.png",
@@ -307,23 +318,13 @@
     "2. Lean/Type Aliases.md",
     "2. Lean/Commands.md",
     "Slides/1. introduction.pdf",
-    "LeanBasics/Polymorphism.lean",
-    "LeanBasics/Datatypes.lean",
-    "LeanBasics/Structs.lean",
-    "LeanBasics/Structures.lean",
     "1. Introduction/Organisatorisches.md",
     "Untitled.md",
     "Excalidraw/Scripts/Downloaded/Mindmap Builder.md",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "programmierparadigmen/lean-toolchain",
-    "programmierparadigmen/lakefile.toml",
-    "programmierparadigmen/lake-manifest.json",
     "programmierparadigmen/README.md",
     "2. Lean/TODO.md",
     "1. Introduction/Untitled.md",
     "LeanBasics/README.md",
-    "lean/introduction/README.md",
-    "1. Introduction/Organisatorische und Literatur.md"
+    "lean/introduction/README.md"
   ]
 }
