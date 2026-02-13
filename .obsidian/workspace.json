@@ -280,17 +280,19 @@
   },
   "active": "737bd11fdacd6d80",
   "lastOpenFiles": [
+    "LeanExercises/lake-manifest.json",
+    "LeanExercises/lean-toolchain",
+    "LeanExercises/README.md",
+    "LeanExercises/Main.lean",
+    "LeanExercises/LeanExercises.lean",
+    "LeanExercises/LeanExercises/Basic.lean",
+    "LeanExercises/LeanExercises",
+    "LeanExercises/lakefile.toml",
+    "LeanExercises",
     "Exercises/Week0/lake-manifest.json",
     "Exercises/Week0/lean-toolchain",
     "Exercises/Week0/README.md",
     "Exercises/Week0/Main.lean",
-    "Exercises/Week0/Week0.lean",
-    "Exercises/Week0/Week0/Basic.lean",
-    "Exercises/Week0/Week0",
-    "Exercises/Week0/lakefile.toml",
-    "Exercises/Week0",
-    "Exercises/idk.txt",
-    "Exercises",
     "2. Lean/Special Types.md",
     "Images/option def.png",
     "Images/unit definition.png",
@@ -323,7 +325,6 @@
     "programmierparadigmen/README.md",
     "2. Lean/TODO.md",
     "1. Introduction/Untitled.md",
-    "LeanBasics/README.md",
-    "lean/introduction/README.md"
+    "LeanBasics/README.md"
   ]
 }
