@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Lean/Pipeline Operator.md",
+                "file": "2. Lean/Enums.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pipeline Operator"
+              "title": "Enums"
             }
           },
           {
@@ -294,21 +294,21 @@
   },
   "active": "2a4ce13a67de3170",
   "lastOpenFiles": [
+    "Images/engineering enum.png",
+    "excalibrain.md",
+    "2. Lean/Pipeline Operator.md",
+    "LeanExercises/LeanExercises/Week0_Bonus.lean",
+    "LeanExercises/LeanExercises/Week0.lean",
     "LeanExercises/Testing.lean",
     "LeanExercises/Testing/LICENSE",
     "LeanExercises/Testing/Benchmark.lean",
     "LeanExercises/Testing/Assert.lean",
     "LeanExercises/Testing",
     "LeanExercises/Week0.lean",
-    "2. Lean/Pipeline Operator.md",
     "2. Lean/Syntax.md",
-    "excalibrain.md",
     "LeanExercises/lake-manifest.json",
     "LeanExercises/lean-toolchain",
     "LeanExercises/README.md",
-    "LeanExercises/Main.lean",
-    "LeanExercises/LeanExercises.lean",
-    "LeanExercises/LeanExercises/Basic.lean",
     "Exercises/Week0/README.md",
     "2. Lean/Special Types.md",
     "Images/option def.png",
