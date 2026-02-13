@@ -1,0 +1,2 @@
+- Method 1: directly with def![[type aliasing 1.png]]
+- Method 2: with abbrev![[type aliasing 2.png]]

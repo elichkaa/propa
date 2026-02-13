@@ -9,13 +9,21 @@ the lines starting with | describe constructors (containers for other data, not 
 inductive types may have multiple constructors (unlike structures)
 here there are two constructors (true and false) and neither take arguments
 -/
-inductive Bool2 where
-  | false : Bool2
-  | true : Bool2
+inductive BoolDef where
+  | false : BoolDef
+  | true : BoolDef
 
-inductive Nat2 where
-  | zero : Nat2 -- represents 0
-  | succ (n : Nat2) : Nat2 -- represents the successor of some other number
+inductive NatDef where
+  | zero : NatDef -- represents 0
+  | succ (n : NatDef) : NatDef -- represents the successor of some other number
+
+inductive IntDef where
+  | ofNat: IntDef -- all numbers 0 <= n < inf
+  | negSucc (n: Nat) : IntDef -- all numbers -1 >= n > -inf
+
+inductive ListDef (α : Type u) where
+  | nil : ListDef α -- represents empty list
+  | cons : α → ListDef α → ListDef α -- cons head tail represents a list with head as first element and tail as the rest
 
 -- pattern matching
 def isZero (n: Nat) : Bool := -- returns true if n is zero else false
@@ -78,3 +86,10 @@ def times (n: Nat) (k: Nat) : Nat :=
   match k with
     | Nat.zero => Nat.zero
     | Nat.succ k' => plus n (times n k')
+
+-- Enums
+inductive Color where
+  | red | green | blue
+
+-- Arrays
+def primesUnder10 : Array Nat := #[2, 3, 5, 7]

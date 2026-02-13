@@ -1,4 +1,3 @@
-
 -- f x rather than f(x)
 #eval String.append "Hello, " "Lean"
 #eval String.append "A" (String.append "B" "C")

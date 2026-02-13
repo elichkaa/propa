@@ -2,7 +2,8 @@ structure Point where
   x: Float
   y: Float
 
-def origin : Point := { x := 0.0, y := 0.0 }
+def origin : Point :=
+  { x := 0.0, y := 0.0 }
 #eval origin
 #eval origin.x
 #eval origin.y
@@ -57,7 +58,8 @@ TARGET.f ARG1 ARG2 ...
 if isinstance(TARGET, T) we call the function T.f
 ex. we can call String.append directly on a string
 -/
-#eval "one string".append " and another" -- TARGET = "one string", ARG1 = " and another"
+-- TARGET = "one string", ARG1 = " and another"
+#eval "one string".append " and another"
 #check (Point.x) -- Point.x : Point -> Float
 #check (Point.y) -- Point.y : Point -> Float
 

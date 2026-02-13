@@ -1,4 +1,3 @@
-## Lean (How to run)
 
 - \#eval - to see the result in the InfoView 
 - lake build - build the project

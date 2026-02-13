@@ -4078,7 +4078,7 @@
         "hidden": true
       },
       "Is Undocked": {
-        "value": true,
+        "value": false,
         "hidden": false
       },
       "Box Children": {
@@ -4104,9 +4104,7 @@
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
   "pinnedScripts": [],
-  "sidepanelTabs": [
-    "{\"script\":\"Downloaded/Mindmap Builder\",\"title\":\"Mind Map Builder\"}"
-  ],
+  "sidepanelTabs": [],
   "customPens": [
     {
       "type": "default",
