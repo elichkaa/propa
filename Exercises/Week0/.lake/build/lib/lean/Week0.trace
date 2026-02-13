@@ -1,0 +1,29 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["f20ba5297c578cd2.olean"],
+  "i": "d09b59f9ac826cf7.ilean",
+  "c": "e26a67d89e1a076c.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/elichka/Documents/PROPA/Exercises/Week0/.lake/build/lib/lean /Users/elichka/.elan/toolchains/leanprover--lean4---v4.27.0/bin/lean /Users/elichka/Documents/PROPA/Exercises/Week0/Week0.lean -o /Users/elichka/Documents/PROPA/Exercises/Week0/.lake/build/lib/lean/Week0.olean -i /Users/elichka/Documents/PROPA/Exercises/Week0/.lake/build/lib/lean/Week0.ilean -c /Users/elichka/Documents/PROPA/Exercises/Week0/.lake/build/ir/Week0.c --setup /Users/elichka/Documents/PROPA/Exercises/Week0/.lake/build/ir/Week0.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["Week0:deps",
+   [["deps",
+     [["Week0/Week0:extraDep", [["@Week0:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Week0.Basic transitive imports (legacy)", "00000000000006bb"],
+        ["Week0.Basic:importAllArts", "8ccab399413c870f"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.27.0, commit db93fe1608548721853390a10cd40580fe7d22ae",
+   "9a2be90fd35343e5"],
+  ["/Users/elichka/Documents/PROPA/Exercises/Week0/Week0.lean",
+   "ba52f90e556fe51c"],
+  ["options", "00000000000006bb"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "ef647d7ee9ac44ac"}

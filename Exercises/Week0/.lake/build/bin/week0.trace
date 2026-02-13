@@ -1,0 +1,21 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs": "0974770099a89834",
+ "log":
+ [{"message":
+   ".> MACOSX_DEPLOYMENT_TARGET=99.0 /Users/elichka/.elan/toolchains/leanprover--lean4---v4.27.0/bin/clang -o /Users/elichka/Documents/PROPA/Exercises/Week0/.lake/build/bin/week0 /Users/elichka/Documents/PROPA/Exercises/Week0/.lake/build/ir/Main.c.o.export /Users/elichka/Documents/PROPA/Exercises/Week0/.lake/build/ir/Week0/Basic.c.o.export /Users/elichka/Documents/PROPA/Exercises/Week0/.lake/build/ir/Week0.c.o.export -L /Users/elichka/.elan/toolchains/leanprover--lean4---v4.27.0/lib/lean --sysroot /Users/elichka/.elan/toolchains/leanprover--lean4---v4.27.0 -L /Users/elichka/.elan/toolchains/leanprover--lean4---v4.27.0/lib -L /Users/elichka/.elan/toolchains/leanprover--lean4---v4.27.0/lib/libc -fuse-ld=lld -lleancpp -lInit -lStd -lLean -lleanrt -lc++ -lLake -lgmp -luv",
+   "level": "trace"}],
+ "inputs":
+ [["linkObjs",
+   [["/Users/elichka/Documents/PROPA/Exercises/Week0/.lake/build/ir/Main.c.o.export",
+     "2246dd04d967d8bd"],
+    ["/Users/elichka/Documents/PROPA/Exercises/Week0/.lake/build/ir/Week0/Basic.c.o.export",
+     "6866d79be370bff1"],
+    ["/Users/elichka/Documents/PROPA/Exercises/Week0/.lake/build/ir/Week0.c.o.export",
+     "2c1210405d1a9819"]]],
+  ["linkLibs", "00000000000006bb"],
+  ["Lean 4.27.0, commit db93fe1608548721853390a10cd40580fe7d22ae",
+   "9a2be90fd35343e5"],
+  ["traceArgs: #[]", "00000000000006bb"],
+  ["arm64-apple-darwin24.6.0", "77c16133d139df5a"]],
+ "depHash": "0559ebec65c2d453"}

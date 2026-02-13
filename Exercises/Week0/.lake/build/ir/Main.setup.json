@@ -1,0 +1,11 @@
+{"plugins": [],
+ "package": "Week0",
+ "options": {},
+ "name": "Main",
+ "isModule": false,
+ "importArts":
+ {"Week0.Basic":
+  ["/Users/elichka/Documents/PROPA/Exercises/Week0/.lake/build/lib/lean/Week0/Basic.olean"],
+  "Week0":
+  ["/Users/elichka/Documents/PROPA/Exercises/Week0/.lake/build/lib/lean/Week0.olean"]},
+ "dynlibs": []}
