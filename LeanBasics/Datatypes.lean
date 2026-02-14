@@ -22,8 +22,8 @@ inductive IntDef where
   | negSucc (n: Nat) : IntDef -- all numbers -1 >= n > -inf
 
 inductive ListDef (α : Type u) where
-  | nil : ListDef α -- represents empty list
-  | cons : α → ListDef α → ListDef α -- cons head tail represents a list with head as first element and tail as the rest
+  | nil : ListDef α -- empty list
+  | cons (head: α) (tail: List α) -- list with head as first element and tail as the rest
 
 -- pattern matching
 def isZero (n: Nat) : Bool := -- returns true if n is zero else false
