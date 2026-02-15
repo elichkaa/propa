@@ -1,0 +1,10 @@
+name = "Hitchhiker"
+version = "0.1.0"
+defaultTargets = ["hitchhiker"]
+
+[[lean_lib]]
+name = "Hitchhiker"
+
+[[lean_exe]]
+name = "hitchhiker"
+root = "Main"

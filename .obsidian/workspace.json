@@ -11,32 +11,6 @@
             "id": "af001b66bc8cf1c2",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "2. Lean/Lean Mindmap.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Lean Mindmap"
-            }
-          },
-          {
-            "id": "fd9c31da65d834df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Lean/Structures.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Structures"
-            }
-          },
-          {
-            "id": "675bd7f82bd59ca4",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "2. Lean/Syntax.md",
@@ -48,47 +22,49 @@
             }
           },
           {
-            "id": "2a4ce13a67de3170",
+            "id": "ed6ceb74c80eb430",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Lean/Collection Types.md",
+                "file": "3. Higher Order Functions/Higher Order Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Collection Types"
+              "title": "Higher Order Functions"
             }
           },
           {
-            "id": "be757c9b52190193",
+            "id": "e705472ea3bddb7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Lean/Collection Types.md",
+                "file": "3. Higher Order Functions/Lambda Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Collection Types"
+              "title": "Lambda Functions"
             }
           },
           {
-            "id": "24351ad6d04bbae9",
+            "id": "2eaa6112dff571e9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "2. Lean/Lean Mindmap.md"
+                "file": "3. Higher Order Functions/Fold Operation.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Lean Mindmap"
+              "icon": "lucide-file",
+              "title": "Fold Operation"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "e6471f049514718c",
@@ -256,19 +232,9 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "d1c11bca62cc58c8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw-sidepanel",
-              "state": {},
-              "icon": "excalidraw-icon",
-              "title": "Excalidraw Sidepanel"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -292,31 +258,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5100afb0593897c4",
+  "active": "2eaa6112dff571e9",
   "lastOpenFiles": [
-    "LeanExercises/LeanExercises/Week2.lean",
-    "programmierparadigmen/Functional/Effectful/Shell/Utilities.lean",
-    "programmierparadigmen/Functional/Effectful/Shell/Paths.lean",
-    "programmierparadigmen/Functional/Effectful/Shell/MonadImpl.lean",
-    "programmierparadigmen/Functional/Effectful/Shell/Monad.lean",
-    "programmierparadigmen/Functional/Effectful/Shell/Main.lean",
-    "programmierparadigmen/Functional/Effectful/Shell/Execute.lean",
-    "programmierparadigmen/Functional/Effectful/Shell/Commands.lean",
-    "programmierparadigmen/Functional/Effectful/Shell",
-    "programmierparadigmen/Functional/Effectful/Composition.lean",
-    "2. Lean/Basic Types.md",
-    "2. Lean/Inductive Types.md",
-    "excalibrain.md",
-    "2. Lean/Datatypes.md",
+    "Hitchhiker/lake-manifest.json",
+    "Hitchhiker/lean-toolchain",
+    "Hitchhiker/README.md",
+    "Hitchhiker/Main.lean",
+    "Hitchhiker/Hitchhiker.lean",
+    "Hitchhiker/Hitchhiker/Basic.lean",
+    "Hitchhiker/Hitchhiker",
+    "Hitchhiker/lakefile.toml",
+    "Hitchhiker",
+    "LeanExercises/LeanExercises/Week3.lean",
+    "3. Higher Order Functions/Higher Order Functions.md",
+    "3. Higher Order Functions/Lambda Functions.md",
+    "3. Higher Order Functions/Fold Operation.md",
+    "2. Lean/Syntax.md",
+    "3. Higher Order Functions",
     "2. Lean/Lean Mindmap.md",
     "2. Lean/Collection Types.md",
-    "LeanExercises/LeanExercises/Week1.lean",
+    "2. Lean/Pipeline Operator.md",
+    "excalibrain.md",
+    "2. Lean/Structures.md",
+    "LeanExercises/LeanExercises/Week2.lean",
+    "2. Lean/Basic Types.md",
+    "2. Lean/Inductive Types.md",
+    "2. Lean/Datatypes.md",
     "Images/list notations explicit def.png",
     "Images/list definition.png",
     "2. Lean/Enums.md",
     "Images/engineering enum.png",
-    "2. Lean/Pipeline Operator.md",
-    "2. Lean/Syntax.md",
     "LeanExercises/README.md",
     "Exercises/Week0/README.md",
     "2. Lean/Special Types.md",
@@ -330,15 +301,10 @@
     "2. Lean/Pattern Matching.md",
     "2. Lean/Dependent Types.md",
     "2. Lean/Implicit Arguments.md",
-    "2. Lean/Structures.md",
     "2. Lean/Conditionals.md",
     "2. Lean/Type Aliases.md",
     "2. Lean/Commands.md",
     "1. Introduction/Organisatorisches.md",
-    "Untitled.md",
-    "Excalidraw/Scripts/Downloaded/Mindmap Builder.md",
-    "programmierparadigmen/README.md",
-    "2. Lean/TODO.md",
-    "1. Introduction/Untitled.md"
+    "Untitled.md"
   ]
 }
