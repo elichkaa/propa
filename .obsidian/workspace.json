@@ -55,34 +55,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Higher Order Functions/Fold Operation.md",
+                "file": "2. Lean/Syntax.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fold Operation"
+              "title": "Syntax"
+            }
+          },
+          {
+            "id": "59af1130b0e5f892",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Lean/Pattern Matching.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pattern Matching"
+            }
+          },
+          {
+            "id": "1d51610b72aeb346",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. Lambda Calculus and Interpretation/Interpreter.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Interpreter"
+            }
+          },
+          {
+            "id": "c9ee8412d6bd0290",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Lean/Leading Dot Notation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Leading Dot Notation"
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "e6471f049514718c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5100afb0593897c4",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "excalibrain.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "excalibrain"
-            }
-          }
-        ]
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -258,29 +282,33 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2eaa6112dff571e9",
+  "active": "737bd11fdacd6d80",
   "lastOpenFiles": [
+    "2. Lean/Pattern Matching Definitions.md",
+    "2. Lean/Pattern Matching.md",
+    "2. Lean/Syntax.md",
+    "2. Lean/Leading Dot Notation.md",
+    "4. Lambda Calculus and Interpretation/Interpreter.md",
+    "LeanExercises/LeanExercises/Interpreter.lean",
+    "4. Lambda Calculus and Interpretation/Lambda Calculus.md",
+    "5. Interpreter",
+    "LeanExercises/LeanExercises/Lambda.lean",
+    "3. Higher Order Functions/Fold Operation.md",
+    "3. Higher Order Functions/Higher Order Functions.md",
+    "4. Lambda Calculus and Interpretation",
+    "Literature/fold exercises 1.pdf",
+    "LeanExercises/LeanExercises/Fold.lean",
     "Hitchhiker/lake-manifest.json",
     "Hitchhiker/lean-toolchain",
     "Hitchhiker/README.md",
     "Hitchhiker/Main.lean",
     "Hitchhiker/Hitchhiker.lean",
-    "Hitchhiker/Hitchhiker/Basic.lean",
-    "Hitchhiker/Hitchhiker",
-    "Hitchhiker/lakefile.toml",
-    "Hitchhiker",
-    "LeanExercises/LeanExercises/Week3.lean",
-    "3. Higher Order Functions/Higher Order Functions.md",
     "3. Higher Order Functions/Lambda Functions.md",
-    "3. Higher Order Functions/Fold Operation.md",
-    "2. Lean/Syntax.md",
-    "3. Higher Order Functions",
     "2. Lean/Lean Mindmap.md",
     "2. Lean/Collection Types.md",
     "2. Lean/Pipeline Operator.md",
     "excalibrain.md",
     "2. Lean/Structures.md",
-    "LeanExercises/LeanExercises/Week2.lean",
     "2. Lean/Basic Types.md",
     "2. Lean/Inductive Types.md",
     "2. Lean/Datatypes.md",
@@ -298,13 +326,9 @@
     "Images/sum type inl inr.png",
     "Images/sum type definition.png",
     "Images/sum type definition.png",
-    "2. Lean/Pattern Matching.md",
     "2. Lean/Dependent Types.md",
     "2. Lean/Implicit Arguments.md",
     "2. Lean/Conditionals.md",
-    "2. Lean/Type Aliases.md",
-    "2. Lean/Commands.md",
-    "1. Introduction/Organisatorisches.md",
-    "Untitled.md"
+    "2. Lean/Type Aliases.md"
   ]
 }

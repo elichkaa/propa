@@ -40,3 +40,5 @@ match xs, ys with
 	| 0 => "zero" 
 	| _ => "nonzero"
 ```
+
+Children:: [[Pattern Matching Definitions]]
