@@ -3,6 +3,9 @@ version = "0.1.0"
 defaultTargets = ["examprep"]
 
 [[lean_lib]]
+name = "Testing"
+
+[[lean_lib]]
 name = "ExamPrep"
 
 [[lean_exe]]

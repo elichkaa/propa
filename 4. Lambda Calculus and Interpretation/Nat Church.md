@@ -29,7 +29,8 @@ def succ n = λ z s => s (n z s)
 ### Addition
 
 ```
-def plus (m n: Nat): Nat := λ fzero fsucc => m (n fzero fsucc) (fun x => fsucc x)
+def plus (m n: Nat): Nat := λ fzero fsucc => 
+	m (n fzero fsucc) (fun x => fsucc x)
 ```
 
 - WE RETURN A NEW NAT
@@ -127,3 +128,5 @@ pow 3 3:
 
 - In mul, 3 x (+1) means "add 3 to the **number** x".  
 - In pow, 3 x g means "apply the **function** g to x, 3 times" — which composes g with itself 3 times, effectively multiplying what g represents by 3
+
+![[recursion levels church.png]]

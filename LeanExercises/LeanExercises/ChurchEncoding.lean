@@ -71,7 +71,8 @@ def succ (n : Nat) : Nat := λ fzero fsucc => fsucc (n fzero fsucc)
 
 -- yields Nat (e.g. a function that accepts arguments s z, applies s iterated n times to z) and
 -- then applies s iterated m more times to the result
-def plus (m n: Nat): Nat := λ fzero fsucc => m (n fzero fsucc) (fun x => fsucc x)
+def plus (m n: Nat): Nat := λ fzero fsucc =>
+  m (n fzero fsucc) (fun x => fsucc x)
 
 def mul (m n : Nat) : Nat := λ fzero fsucc =>
   m fzero (fun x => n x fsucc)
