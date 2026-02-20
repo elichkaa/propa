@@ -38,8 +38,10 @@ def Bool.fold {α} (ftrue: α) (ffalse: α) (b: Bool): α :=
 
 def Bool := ∀{α}, α -> α -> α
 -- now we want to define true and false from type Bool which will behave like true.fold and false.fold
-def true : Bool := λ ftrue => λ ffalse => ftrue
-def false : Bool := λ ftrue => λ ffalse => ffalse
+-- def true : Bool := λ ftrue => λ ffalse => ftrue
+def true: Bool := λ t _ => t
+-- def false : Bool := λ ftrue => λ ffalse => ffalse
+def false: Bool := λ _ f => f
 
 #eval true "It's true!" "It's false!"   -- "It's true!"
 #eval false "It's true!" "It's false!"  -- "It's false!"
@@ -84,7 +86,7 @@ def xor (b1 b2: Bool): Bool := λ ftrue ffalse => b1 (b2 ffalse ftrue) (b2 ftrue
 -- (α -> α) is for the successor
 def Nat := ∀ {α}, α -> (α -> α) -> α
 
-def zero: Nat := λ fzero => λ fsucc => fzero
+def zero: Nat := λ fzero => λ _ => fzero
 def succ (n : Nat): Nat := λ fzero => λ fsucc => fsucc (n fzero fsucc)
 
 def one : Nat := succ zero
@@ -114,3 +116,78 @@ def mul (m n : Nat) : Nat :=
 
 #assert (toNat (mul one three)) == 3
 #assert (toNat (mul two three)) == 6
+
+
+-- EXERCISE 1: Define `isZero : Nat -> Bool`
+def isZero (n: Nat): Bool :=
+  λ ftrue ffalse =>
+    n ftrue (λ _ => ffalse)
+#assert (isZero zero "T" "F") == "T"
+#assert (isZero one "T" "F") == "F"
+#assert (isZero three "T" "F") == "F"
+
+-- EXERCISE 2: Define `Pair` as a Church encoding
+-- Define the type, and functions: pair, fst, snd
+def Pair (α β : Type) := ∀ {γ : Type}, (α -> β -> γ) -> γ
+
+def pair {α β : Type} (a : α) (b : β) : Pair α β := λ f => f a b
+def fst {α β : Type} (p : Pair α β) : α := p (λ a _ => a)
+def snd {α β : Type} (p : Pair α β) : β := p (λ _ b => b)
+
+#assert (fst (pair "hello" "world")) == "hello"
+#assert (snd (pair "hello" "world")) == "world"
+#assert (fst (pair 1 2)) == 1
+#assert (snd (pair 1 2)) == 2
+
+-- EXERCISE 3: Define `pred : Nat -> Nat`
+def fromNat (n: _root_.Nat): Nat :=
+  fun fzero fsucc => n.rec fzero (fun _ x => fsucc x)
+
+def pred (n: Nat): Nat :=
+  fromNat (_root_.Nat.pred (toNat n))
+
+#assert (toNat (pred zero)) == 0
+#assert (toNat (pred one)) == 0
+#assert (toNat (pred two)) == 1
+#assert (toNat (pred three)) == 2
+
+-- EXERCISE 4: Define `sub (m n : Nat) : Nat`
+def sub (m n : Nat) : Nat :=
+  fromNat (toNat m - toNat n)
+
+#assert (toNat (sub three one)) == 2
+#assert (toNat (sub three two)) == 1
+#assert (toNat (sub three three)) == 0
+#assert (toNat (sub one three)) == 0
+
+-- EXERCISE 5: Define `eq (m n : Nat) : Bool`
+def eq (m n : Nat) : Bool :=
+  λ ftrue ffalse =>
+    if toNat m == toNat n then ftrue else ffalse
+
+#assert (eq zero zero "T" "F") == "T"
+#assert (eq one one "T" "F") == "T"
+#assert (eq one two "T" "F") == "F"
+#assert (eq two one "T" "F") == "F"
+#assert (eq three three "T" "F") == "T"
+
+-- EXERCISE 6: Define `Maybe` as a Church encoding
+-- Define the type, and functions: none, some, isNone
+def Maybe (α : Type) := ∀ {β : Type}, β -> (α -> β) -> β
+
+def none {α : Type} : Maybe α := λ fnothing _ => fnothing
+def some {α : Type} (a : α) : Maybe α := λ _ fjust => fjust a
+def isNone {α : Type} (m : Maybe α) : Bool := m true (λ _ => false)
+
+#assert (isNone (none (α := String)) "T" "F") == "T"
+#assert (isNone (some 42) "T" "F") == "F"
+#assert (some "hello" "default" id) == "hello"
+#assert ((none (α := String)) "default" id) == "default"
+
+-- EXERCISE 7: Define `safePred : Nat -> Maybe Nat`
+def safePred (n : Nat) : Option _root_.Nat :=
+  if toNat n == 0 then Option.none else Option.some (toNat n - 1)
+
+#assert (safePred zero) == Option.none
+#assert (safePred one) == Option.some 0
+#assert (safePred three) == Option.some 2

@@ -9,5 +9,3 @@ In Java we usually compile before we interpret, because the compiler generates J
 We want to interrupt compilation in order to ==improve compile time==. 
 
 Another use case is the pedagogical - we use interpreters to understand the definition of the structures in the language better. 
-
-TODO BETA STUFF FROM UB

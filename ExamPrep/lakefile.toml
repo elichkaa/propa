@@ -1,0 +1,10 @@
+name = "ExamPrep"
+version = "0.1.0"
+defaultTargets = ["examprep"]
+
+[[lean_lib]]
+name = "ExamPrep"
+
+[[lean_exe]]
+name = "examprep"
+root = "Main"

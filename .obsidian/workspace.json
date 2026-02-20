@@ -4,81 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f6df5799aae92563",
+        "id": "0640f281b8e55993",
         "type": "tabs",
         "children": [
           {
-            "id": "af001b66bc8cf1c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Lean/Syntax.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Syntax"
-            }
-          },
-          {
-            "id": "ed6ceb74c80eb430",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Higher Order Functions/Higher Order Functions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Higher Order Functions"
-            }
-          },
-          {
-            "id": "e705472ea3bddb7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Higher Order Functions/Lambda Functions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lambda Functions"
-            }
-          },
-          {
-            "id": "2eaa6112dff571e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Lean/Syntax.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Syntax"
-            }
-          },
-          {
-            "id": "59af1130b0e5f892",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Lean/Pattern Matching.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pattern Matching"
-            }
-          },
-          {
-            "id": "1d51610b72aeb346",
+            "id": "4b72cf2a47185384",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,21 +22,91 @@
             }
           },
           {
-            "id": "c9ee8412d6bd0290",
+            "id": "863309c0a4260eb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Lean/Leading Dot Notation.md",
+                "file": "4. Lambda Calculus and Interpretation/Lambda Calculus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Leading Dot Notation"
+              "title": "Lambda Calculus"
+            }
+          },
+          {
+            "id": "5de845e931dae15c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. Lambda Calculus and Interpretation/Church Encoding.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Church Encoding"
+            }
+          },
+          {
+            "id": "64d60de8c7ba83ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. Lambda Calculus and Interpretation/Nat Church.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nat Church"
+            }
+          },
+          {
+            "id": "e65f8a09cea7bc42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. Lambda Calculus and Interpretation/Pair Church.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pair Church"
+            }
+          },
+          {
+            "id": "69ea3a745921d77f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. Lambda Calculus and Interpretation/Bool Church.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bool Church"
+            }
+          },
+          {
+            "id": "b1951e49e4feada0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. Lambda Calculus and Interpretation/Interpreter.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Interpreter"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -256,9 +256,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "c3a6aeac4eeea8b9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw-sidepanel",
+              "state": {},
+              "icon": "excalidraw-icon",
+              "title": "Excalidraw Sidepanel"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -282,27 +292,35 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "737bd11fdacd6d80",
+  "active": "64d60de8c7ba83ff",
   "lastOpenFiles": [
+    "ExamPrep/lake-manifest.json",
+    "ExamPrep/lean-toolchain",
+    "ExamPrep/README.md",
+    "ExamPrep/Main.lean",
+    "ExamPrep/ExamPrep.lean",
+    "ExamPrep/ExamPrep/Basic.lean",
+    "ExamPrep/ExamPrep",
+    "ExamPrep/lakefile.toml",
+    "ExamPrep/Testing/LICENSE",
+    "ExamPrep/Testing/Benchmark.lean",
+    "ExamPrep/Testing/Assert.lean",
+    "ExamPrep/Testing",
+    "4. Lambda Calculus and Interpretation/Church Encoding.md",
+    "4. Lambda Calculus and Interpretation/Nat Church.md",
+    "4. Lambda Calculus and Interpretation/Pair Church.md",
+    "4. Lambda Calculus and Interpretation/Bool Church.md",
+    "4. Lambda Calculus and Interpretation/Lambda Calculus.md",
+    "4. Lambda Calculus and Interpretation/Interpreter.md",
+    "4. Lambda Calculus and Interpretation/Lambda Map.md",
+    "4. Lambda Calculus and Interpretation/Beta Reduction.md",
     "2. Lean/Pattern Matching Definitions.md",
     "2. Lean/Pattern Matching.md",
     "2. Lean/Syntax.md",
     "2. Lean/Leading Dot Notation.md",
-    "4. Lambda Calculus and Interpretation/Interpreter.md",
-    "LeanExercises/LeanExercises/Interpreter.lean",
-    "4. Lambda Calculus and Interpretation/Lambda Calculus.md",
-    "5. Interpreter",
-    "LeanExercises/LeanExercises/Lambda.lean",
     "3. Higher Order Functions/Fold Operation.md",
     "3. Higher Order Functions/Higher Order Functions.md",
-    "4. Lambda Calculus and Interpretation",
-    "Literature/fold exercises 1.pdf",
-    "LeanExercises/LeanExercises/Fold.lean",
-    "Hitchhiker/lake-manifest.json",
-    "Hitchhiker/lean-toolchain",
     "Hitchhiker/README.md",
-    "Hitchhiker/Main.lean",
-    "Hitchhiker/Hitchhiker.lean",
     "3. Higher Order Functions/Lambda Functions.md",
     "2. Lean/Lean Mindmap.md",
     "2. Lean/Collection Types.md",
@@ -314,21 +332,13 @@
     "2. Lean/Datatypes.md",
     "Images/list notations explicit def.png",
     "Images/list definition.png",
-    "2. Lean/Enums.md",
     "Images/engineering enum.png",
-    "LeanExercises/README.md",
-    "Exercises/Week0/README.md",
-    "2. Lean/Special Types.md",
     "Images/option def.png",
     "Images/unit definition.png",
     "Images/unit definition.png",
     "Images/sum type inl inr ex2.png",
     "Images/sum type inl inr.png",
     "Images/sum type definition.png",
-    "Images/sum type definition.png",
-    "2. Lean/Dependent Types.md",
-    "2. Lean/Implicit Arguments.md",
-    "2. Lean/Conditionals.md",
-    "2. Lean/Type Aliases.md"
+    "Images/sum type definition.png"
   ]
 }

@@ -42,6 +42,7 @@
   "isLeftHanded": false,
   "desktopUIMode": "tray",
   "tabletUIMode": "compact",
+  "phoneUIMode": "mobile",
   "iframeMatchExcalidrawTheme": true,
   "matchTheme": false,
   "matchThemeAlways": false,
@@ -112,7 +113,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.4",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.5",
     "libraryItems": [
       {
         "id": "he-s7yNp1I7DIxUPGw9zL",
@@ -4078,7 +4079,7 @@
         "hidden": true
       },
       "Is Undocked": {
-        "value": false,
+        "value": true,
         "hidden": false
       },
       "Box Children": {
@@ -4091,11 +4092,16 @@
       },
       "Growth Mode": {
         "value": "Right-Left",
-        "hidden": false
+        "valueset": [
+          "Radial",
+          "Right-facing",
+          "Left-facing",
+          "Right-Left"
+        ]
       }
     }
   },
-  "previousRelease": "2.20.4",
+  "previousRelease": "2.20.5",
   "showReleaseNotes": true,
   "compareManifestToPluginVersion": true,
   "showNewVersionNotification": true,
@@ -4104,7 +4110,9 @@
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
   "pinnedScripts": [],
-  "sidepanelTabs": [],
+  "sidepanelTabs": [
+    "{\"script\":\"Downloaded/Mindmap Builder\",\"title\":\"Mind Map Builder\"}"
+  ],
   "customPens": [
     {
       "type": "default",
