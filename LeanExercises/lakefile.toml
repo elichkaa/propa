@@ -11,3 +11,14 @@ name = "LeanExercises"
 [[lean_exe]]
 name = "leanexercises"
 root = "Main"
+
+[[require]]
+name = "plausible"
+version = "=0.1.0"
+scope = "leanprover-community"
+
+[[require]]
+name = "Regex"
+git = "https://github.com/pandaman64/lean-regex"
+rev = "v4.27.1-rc1"
+subDir = "regex"

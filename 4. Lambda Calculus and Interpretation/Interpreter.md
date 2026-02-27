@@ -11,8 +11,7 @@ We want to interrupt compilation in order to ==improve compile time==.
 Another use case is the pedagogical - we use interpreters to understand the definition of the structures in the language better. 
 
 - this is an abstract syntax of a functional programming language that we want to interpret
-```
-
+```lean
 inductive Expression where
 	| intLiteral (n : Int)
 	| boolLiteral (b : Bool)
@@ -30,7 +29,7 @@ instance : ToString Expression where
 ```
 
 - our goal is to write a function that takes this Expression and returns a result
-```
+```lean
 def Expression.freeVariables : Expression → Std.HashSet String
 	| .intLiteral _ => {}
 	| .boolLiteral _ => {}
