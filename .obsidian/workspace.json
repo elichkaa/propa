@@ -8,91 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8506d3509775641b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5. Performance/0. Efficient Functional Programming - Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0. Efficient Functional Programming - Index"
-            }
-          },
-          {
-            "id": "4be6838c03f71ea7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5. Performance/0. Efficient Functional Programming - Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0. Efficient Functional Programming - Index"
-            }
-          },
-          {
-            "id": "9b1f1a28205a01a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5. Performance/0. Efficient Functional Programming - Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0. Efficient Functional Programming - Index"
-            }
-          },
-          {
             "id": "1eacadd04298856d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10. Composing Monads/2. Monad Transformers.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2. Monad Transformers"
-            }
-          },
-          {
-            "id": "c6506c2135fdbf7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10. Composing Monads/1. The Problem of Multiple Effects.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. The Problem of Multiple Effects"
-            }
-          },
-          {
-            "id": "b8cfc09bcdde26a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4. Lambda Calculus and Interpretation/1. Lambda Calculus Foundations.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Lambda Calculus Foundations"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -278,44 +203,44 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1eacadd04298856d",
+  "active": "737bd11fdacd6d80",
   "lastOpenFiles": [
-    "Practice/lake-manifest.json",
-    "Practice/lean-toolchain",
-    "Practice/README.md",
-    "Practice/Main.lean",
-    "Practice/Practice.lean",
-    "Practice/Practice/Basic.lean",
-    "Practice/Practice",
-    "Practice/lakefile.toml",
-    "Practice",
-    "10. Composing Monads/1. The Problem of Multiple Effects.md",
-    "10. Composing Monads/4. Designing Monadic Interfaces.md",
-    "10. Composing Monads/3. MonadLift and Transformer Ordering.md",
-    "10. Composing Monads/2. Monad Transformers.md",
-    "10. Composing Monads/0. Composing Monads - Index.md",
-    "7. Specification and Testing/0. Specification and Testing - Index.md",
-    "8. Modularity/1. Type Classes and Interfaces.md",
-    "10. Composing Monads",
-    "8. Modularity/2. Instances (instance).md",
-    "8. Modularity/2. Type Classes (class).md",
-    "8. Modularity/3. Type Class Constraints.md",
-    "8. Modularity/5. Encapsulation and Smart Constructors.md",
-    "8. Modularity/4. Abstracting over Data Structures.md",
-    "7. Specification and Testing/4. Custom Generators and Shrinking.md",
-    "7. Specification and Testing/3. Debugging with Counterexamples.md",
-    "7. Specification and Testing/2. Property-Based Testing with Plausible.md",
-    "7. Specification and Testing/1. Specifications as Properties.md",
-    "5. Performance/3. Accumulators.md",
-    "5. Performance/0. Efficient Functional Programming - Index.md",
-    "5. Performance/2. Tail Calls and Tail-Call Optimization.md",
-    "5. Performance/1. Analyzing Complexity of Functional Programs.md",
-    "4. Lambda Calculus and Interpretation/6. Dynamic vs Lexical Scoping.md",
-    "4. Lambda Calculus and Interpretation/0. Lambda Calculus and Interpretation - Index.md",
-    "4. Lambda Calculus and Interpretation/5. Substitution vs Environment-Based Interpretation.md",
-    "4. Lambda Calculus and Interpretation/4. Building an Interpreter.md",
-    "2. Lean Fundamentals",
-    "LeanExercises/LeanExercises/Monads.lean",
+    "LeanExercises/lake-manifest.json",
+    "LeanExercises/lean-toolchain",
+    "LeanExercises/README.md",
+    "LeanExercises/Main.lean",
+    "LeanExercises/LeanExercises.lean",
+    "LeanExercises/LeanExercises/Basic.lean",
+    "LeanExercises/LeanExercises",
+    "LeanExercises/lakefile.toml",
+    "LeanExercises",
+    "Notes/6. Parallel Programming/0. Tasks/2 Tasks/task2/Buffer.java",
+    "Notes/6. Parallel Programming/0. Tasks/2 Tasks/task2/ProducerConsumer.java",
+    "Notes/6. Parallel Programming/0. Tasks/2 Solutions/task2/ProducerConsumer.java",
+    "Notes/6. Parallel Programming/3. Java/Java Mind Palace.excalidraw.md",
+    "Notes/6. Parallel Programming/2. MPI/MPI Mind Palace.exalidraw.md",
+    "Notes/6. Parallel Programming/1. Fundamentals/Fundamentals.md",
+    "Notes/6. Parallel Programming/1. Fundamentals/Fundamentals Mind Palace.excalidraw.md",
+    "Notes/9. Effectful/9. The State Monad.md",
+    "Notes/9. Effectful/8. The Reader Monad.md",
+    "Notes/9. Effectful/7. The List Monad.md",
+    "Notes/9. Effectful/6. Failure Monads - Except and Option.md",
+    "Notes/9. Effectful/5. What is a Monad.md",
+    "Notes/9. Effectful/4. Effectful Mapping and Composition.md",
+    "Notes/9. Effectful/3. Error Handling with Except.md",
+    "Notes/9. Effectful/2. IO and do Notation.md",
+    "Notes/9. Effectful/1. Pure vs Effectful Code.md",
+    "Notes/9. Effectful/0. Effectful Index.md",
+    "Notes/8. Modularity/5. Encapsulation and Smart Constructors.md",
+    "Notes/8. Modularity/4. Abstracting over Data Structures.md",
+    "Notes/8. Modularity/3. Type Class Constraints.md",
+    "Notes/8. Modularity/2. Type Classes (class).md",
+    "Notes/8. Modularity/2. Instances (instance).md",
+    "Notes/8. Modularity/1. Type Classes and Interfaces.md",
+    "Notes/7. Specification and Testing/Theorems (nicht klausurrelevant).md",
+    "Notes/7. Specification and Testing/Test Case Generator.md",
+    "Notes/7. Specification and Testing/Specification.md",
+    "Notes/7. Specification and Testing/Property-Based Testing.md",
     "Images/computer cluster.png",
     "Images/image-removebg-preview.png",
     "Pasted Image 20260304224535_649.png",

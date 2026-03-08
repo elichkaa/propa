@@ -1,1 +1,0 @@
-![[process and thread.png]]

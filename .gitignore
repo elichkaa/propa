@@ -24,3 +24,5 @@ cabal.project.local~
 
 /.lake
 .DS_Store
+/Images
+/Slides
